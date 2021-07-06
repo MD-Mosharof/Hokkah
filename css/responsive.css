@@ -1,0 +1,1160 @@
+@media (min-width:320px) and (max-width:575px){
+
+/* =========nav start========= */
+    nav button i{
+        color: #fff;
+    }
+    .navbar ul {
+        margin-right: 0px !important;
+        background: #000;   
+    }
+    .navbar .nav-item {      
+        margin: 0px;
+        text-align: center;
+    }
+    .navbar .nav-item a{
+        padding: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar .nav-item .overlay{
+        width: 0;
+    }
+    .navbar-toggler:focus {  
+        color:transparent;
+    }
+    /* =======nav end========== */
+
+    /* ========banner-start======= */
+    #banner_part {
+        padding-top: 30px;
+    }
+    #banner_part .banner .overlay h3{
+    font-size: 23px;
+    }
+    #banner_part .banner .overlay{
+        padding: 100px 0;
+    }
+    #banner_part .banner .overlay h1{
+        width:auto;
+        font-size: 47px;
+    }
+    #banner_part .banner .overlay h2{
+        width:auto;
+        font-size: 47px;
+    }
+
+
+    #banner_part .banner .overlay p::before {
+        background: #ed5034;
+        position: absolute;
+        bottom: 115px;
+        left: 3%;
+        width: 71px;
+        height: 2px;
+        content: "";
+    }
+    #banner_part .banner .overlay p::after {
+        background: #ed5034;
+        position: absolute;
+        bottom: 115px;
+        right: 3%;
+        width: 71px;
+        height: 2px;
+        content: "";
+    }
+    #banner_part .next{
+        bottom: -2%;
+        right: 28%;
+    }
+    #banner_part .prev{
+        bottom: -2%;
+        left: 28%;
+    }
+    /* ======== banner end======= */
+
+    /* =========story start========*/
+
+    #story-part .img .overlay {
+        position: absolute;
+        top: -82%;
+        left: -65%;
+    }
+    #story-part .img{
+        padding-bottom: 0px;
+    }
+    #story-part .img .overlay img {
+        width: 70%;
+    }
+    #story-part .img .overlay {
+        position: absolute;
+        top: -40%;
+        left: -39%;
+    }
+    #story-part .text {
+        padding-top:0px;
+        text-align: center;
+    }
+    #story-part .text .story-title h2{
+        text-align: center;
+    }
+    #story-part .text p{
+        width: auto;
+    }
+    #story-part .text .button{
+        margin-bottom: 100px;
+    }
+    #story-part .img .round{
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    #story-part .main {
+        display: block;
+        
+    }
+    #story-part .round{
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+
+    /* ===========happy hour part start====== */
+
+    #happy-hour-part .title h2 {
+        padding-top: 50px;
+    }
+    #happy-hour-part .counter-down{
+        margin-top: -40px;
+    }
+    #happy-hour-part .text-part {
+        border-left: none;
+        height: 300px;
+        margin-top: 12px;
+        padding-left: 22px;
+    }
+    #happy-hour-part .text-part .after {
+        padding-bottom: 2px;
+        position: relative;
+    }
+    #happy-hour-part .text-part img {
+        display: none;
+    }
+    #happy-hour-part .text-part p {
+        font-size: 18px;
+        text-align: center;
+    }
+    #happy-hour-part .counter-down .round{
+        width: 120px;
+        height: 120px;
+    }
+    #happy-hour-part .counter-down .round h3{
+        font-size: 43px;
+    }
+    #happy-hour-part .bottom-text p{
+        font-size: 23px;
+        padding-top: 0px;
+    }
+    #happy-hour-part .bottom-text{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #happy-hour-part .text-part p{
+        font-size: 14px;
+        padding-bottom: 15px;
+    }
+    #happy-hour-part .text-part{
+        margin-top: 0px;
+    }
+    /* ============happy hour-part end=== */
+
+    /* =============team-part========== */
+
+    #team-part  .title h2{
+    font-size: 32px;
+    }
+    #team-part .team .round{
+        margin: 0 auto;
+    }
+    /* =======team-part  end============ */
+
+    
+    /* =======gallery-part  start============ */
+
+    .vbox-prev {
+        top: 64%;
+        left: 101px;
+    }
+    .vbox-next {
+        right: 101px;
+        top: 64%;
+    }
+    /* =======gallery-part  end============ */
+
+    /* ===========reservation-part start====== */
+   
+     #reservation-part .image img{
+        width: 100%;
+    }
+    #reservation-part .image .smoke-img {
+        width: 517px;
+        position: absolute;
+        top: -21%;
+        left: -30%;
+        z-index: -1;
+    }
+    #reservation-part .form h3{
+        font-size: 30px;
+        padding-top: 30px;
+    }
+    
+    #reservation-part .form .main input::placeholder {
+        font-size: 12px;
+    }
+    #reservation-part .form .main input {
+        padding: 10px 10px;
+    }
+      /* ===========reservation-part end====== */
+
+      /* ===========testimonial-part start====== */
+      #testimonial-part .title h2{
+          font-size: 30px;
+      }
+      #testimonial-part{
+        margin-top: -100px;
+      }
+      #testimonial-part .item-part .item{
+        display:block;
+        background: #0a0b0c;
+    }
+    #testimonial-part .item-part .item .img {
+        width: 100%;
+    }
+    #testimonial-part .item-part .item .img img {
+        width:100%;
+    }
+    #testimonial-part .item-part .item .text{
+        width: 100%;
+        padding: 25px 0;
+    }
+    #testimonial-part .item-part{
+        width: 100%;
+        margin: 0 auto;    
+    }
+    #testimonial-part .item-part .item .text p{
+        font-size: 15px;
+    }
+    #testimonial-part .item-part .prev{
+        top: 28%;
+        left: 0;
+    }
+    #testimonial-part .item-part .next{
+        top: 28%;
+        right: 0;
+    }
+
+      /* ===========testimonial-part end====== */
+
+       /* ===========counter-part end====== */
+       #contact-part{
+           padding-top: 60px;
+       }
+      #contact-part .item .con p{
+          padding: 0px;
+      }
+      #contact-part .item p{
+          font-size: 16px;
+          margin: 0 5px;
+      }
+      #contact-part .icon-part::after{
+          display: none;
+      }
+      #contact-part .item .con span {
+        padding-bottom: 10px;
+        padding: 0 10px;
+        font-size: 15px;
+    }
+      #contact-part .item .con::after{
+          left: 47%;
+      }
+      
+    #contact-part .icon-part::before{
+        display: none;
+    }
+     /* ===========contrct-part end====== */
+     /* ==========counter start================ */
+     #counter-part .item{
+         margin: 15px 0px;
+     }
+     /* ==========counter end========== */
+     /* ===========404page========== */
+     #banner-con-part .counter-down .round h4{
+         font-size: 44px;
+     }
+     
+
+     #banner-con-part .banner .banner-smoke .overlay h2{
+         padding-top: 220px;
+         font-size: 37px;
+     }
+     #banner-con-part .counter-down{
+         display: block;
+     }
+     /* =======404page========= */
+
+
+ }
+@media (min-width:576px) and (max-width:767px){
+       /* ==========counter start================ */
+       #counter-part .item{
+        margin: 15px 0px;
+    }
+    /* ==========counter end========== */
+
+
+    /* =========nav start========= */
+        nav button i{
+            color: #fff;
+        }
+        .navbar ul {
+            margin-right: 0px !important;
+            background: #000;   
+            padding: 20px 0;
+        }
+        .navbar .nav-item {      
+            margin: 0px;
+            text-align: center;
+        }
+        .navbar .nav-item a{
+            padding: 0;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .navbar .nav-item .overlay{
+            width: 0;
+        }
+        .navbar-toggler:focus {  
+            color:transparent;
+        }
+        /* =======nav end========== */
+    
+        /* ========banner-start======= */
+        #banner_part .banner .overlay h3{
+        font-size: 35px;
+        }
+        #banner_part .banner .overlay{
+            padding: 140px 0;
+        }
+      
+    
+        #banner_part .banner .overlay p::before {
+         
+            bottom: 154px;
+            left: 21%;
+            width: 90px;
+   
+        }
+        #banner_part .banner .overlay p::after {
+        
+            bottom: 154px;
+            right: 21%;
+            width: 90px;       
+           
+        }
+        #banner_part .next{
+            bottom: 5%;
+            right: 37%;
+        }
+        #banner_part .prev{
+            bottom: 5%;
+            left: 37%;
+        }
+        /* ======== banner end======= */
+    
+        /* =========story start========*/
+     
+        #story-part .main{
+            margin-bottom: 50px;
+
+        }
+
+        #story-part .round{
+            width: 141px;
+            height: 141px;
+         
+        
+        }
+        #story-part .round .image .round{
+            width: 80px;
+            height: 80px;
+           
+           
+        }
+        #story-part .round .image .round i{
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+       
+        }
+        #story-part .img{
+            padding-bottom: 0px;
+        }
+        
+        #story-part .img .overlay {
+            position: absolute;
+            top: -30%;
+            left: -31%;
+        }
+        #story-part .text {
+            padding-top:0px;
+            text-align: center;
+        }
+        #story-part .text .story-title h2{
+            text-align: center;
+        }
+        #story-part .text p{
+            width: auto;
+        }
+        #story-part .text .button{
+            margin-bottom: 100px;
+        }
+        #story-part .img .round{
+            top: 50%;
+            left: 57%;
+            transform: translate(-50%,-50%);
+        }
+        #counter-part .item p {
+            font-size: 23px;
+        }
+    
+        /* ===========happy hour part start====== */
+        #happy-hour-part{
+            margin-top: -100px;
+        }
+    
+        #happy-hour-part .title h2 {
+            padding-top: 50px;
+        }
+        #happy-hour-part .counter-down{
+            margin-top: -40px;
+        }
+        #happy-hour-part .text-part {
+            border-left: none;
+            height: 300px;
+            margin-top: 12px;
+            padding-left: 22px;
+        }
+        #happy-hour-part .text-part .after {
+            padding-bottom: 2px;
+            position: relative;
+        }
+        #happy-hour-part .text-part img {
+            padding-top: 1px;
+            padding-bottom: 0px;
+        }
+        #happy-hour-part .counter-down .round{
+            width: 120px;
+            height: 120px;
+        }
+        #happy-hour-part .counter-down .round h3{
+            font-size: 43px;
+        }
+        #happy-hour-part .bottom-text p{
+            font-size: 23px;
+            padding-top: 0px;
+        }
+        #happy-hour-part .bottom-text{
+            margin-left: -52px;
+        }
+        #happy-hour-part .text-part p{
+            font-size: 14px;
+        }
+        #happy-hour-part .text-part{
+            margin-top: 0px;
+            padding-left: 133px;
+        }
+        /* ============happy hour-part end=== */
+    
+        /* =============team-part========== */
+    
+        #team-part  .title h2{
+        font-size: 32px;
+        }
+        #team-part .team .round{
+            margin: 0 auto;
+        }
+       
+    #team-part .team .smoke {
+
+     position: absolute;
+     top: -108px;
+     left: 68px;
+     width: 78%;
+      height: 114%;
+      opacity: 0;
+      z-index: -1;
+     transition: .4s;
+        }
+        /* =======team-part  end============ */
+    
+        
+        /* =======gallery-part  start============ */
+        .vbox-prev {
+            left: 240px;
+            top: 74%;
+        }
+        .vbox-next {
+            right: 240px;
+            top: 74%;
+        }
+        /* =======gallery-part  end============ */
+    
+        /* ===========reservation-part start====== */
+       
+         #reservation-part .image img{
+            width: 100%;
+        }
+        #reservation-part .image .smoke-img {
+            width: 885px;
+            position: absolute;
+            top: -22%;
+            left: -43%;
+            z-index: -1;
+            
+        }
+        #reservation-part .form{
+            text-align: center!important;
+        }
+        #reservation-part .form h3{
+            font-size: 30px;
+            padding-top: 30px;
+        }
+        
+    #reservation-part .form .main input::placeholder {
+        font-size: 12px;
+    }
+    #reservation-part .form .main input{
+        padding: 15px 8px;
+    }
+    #reservation-part .form h3::after {
+        width: 107px;
+        left: 124px;
+    }
+    #reservation-part .form h3::before {
+        left: 239px;
+    }
+          /* ===========reservation-part end====== */
+    
+          /* ===========testimonial-part start====== */
+          #testimonial-part .title h2{
+              font-size: 30px;
+          }
+          #testimonial-part{
+            margin-top: -100px;
+          }
+          #testimonial-part .item-part .item{
+            display:block;
+            background: #0a0b0c;
+        }
+        #testimonial-part .item-part .item .img {
+            width: 100%;
+        }
+        #testimonial-part .item-part .item .img img {
+            width:100%;
+        }
+        #testimonial-part .item-part .item .text{
+            width: 100%;
+            padding: 25px 0;
+        }
+        #testimonial-part .item-part{
+            width: 100%;
+            margin: 0 auto;    
+        }
+        #testimonial-part .item-part .item .text p{
+            font-size: 16px;
+           
+        }
+        #testimonial-part .item-part .item .text{
+            padding: 25px 13px;
+        }
+        #testimonial-part .item-part .prev{
+            top: 34%;
+            left: 0;
+        }
+        #testimonial-part .item-part .next{
+            top: 34%;
+            right: 0;
+        }
+    
+          /* ===========testimonial-part end====== */
+    
+           /* ===========counter-part end====== */
+           #contact-part{
+               padding-top: 60px;
+           }
+           
+          #contact-part .item p{
+              font-size: 16px;
+              margin: 0 5px;
+          }
+          #contact-part .icon-part::after {
+            width: 110px;
+            bottom: 20px;
+        }
+          
+        #contact-part .icon-part::before {
+            width: 110px;
+            bottom: 20px;
+        }
+        #contact-part .item .con::after{
+            left: 48%;
+        }
+        #contact-part .item .con{
+            justify-content: center;
+        }
+        #contact-part .item h3::after {
+            left: 44%;
+        }
+         /* ===========counter-part end====== */
+
+         #banner-con-part .counter-down .round {
+            margin: 0px 25px;
+        }
+        #banner-con-part .counter-down{
+            padding-bottom: 237px;
+        }
+       
+ }
+ @media (min-width:768px) and (max-width:991px){
+        /* ==========counter start================ */
+        #counter-part .item{
+            margin: 15px 0px;
+        }
+        /* ==========counter end========== */
+
+        /* =========nav start========= */
+            nav button i{
+                color: #fff;
+            }
+            .navbar ul {
+                margin-right: 0px !important;
+                background: #000;   
+                padding: 20px 0;
+            }
+            .navbar .nav-item {      
+                margin: 0px;
+                text-align: center;
+            }
+            .navbar .nav-item a{
+                padding: 0;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+            .navbar .nav-item .overlay{
+                width: 0;
+            }
+            .navbar-toggler:focus {  
+                color:transparent;
+            }
+            /* =======nav end========== */
+        
+            /* ========banner-start======= */
+           
+            #banner_part .banner .overlay{
+                padding: 140px 0;
+            }
+          
+        
+            #banner_part .banner .overlay p::before {
+             
+                bottom: 154px;
+                left: 26%;
+                width: 100px;
+       
+            }
+            #banner_part .banner .overlay p::after {
+            
+                bottom: 154px;
+                right: 26%;
+                width: 100px;       
+               
+            }
+            #banner_part .next{
+                bottom: 5%;
+                right: 40%;
+            }
+            #banner_part .prev{
+                bottom: 5%;
+                left: 40%;
+            }
+            /* ======== banner end======= */
+        
+            /* =========story start========*/
+         
+
+          
+        
+            #story-part .img .overlay {
+                position: absolute;
+                top: -82%;
+                left: -65%;
+            }
+            #story-part .img{
+                padding-bottom: 0px;
+            }
+            #story-part .img .overlay img {
+                width: 70%;
+            }
+            #story-part .img .overlay {
+                position: absolute;
+                top: -40%;
+                left: -45%;
+            }
+            #story-part .text {
+                padding-top:100px;
+               
+            }
+            #story-part .text .story-title{
+                text-align: center;
+            }
+            #story-part .text .story-title h2{
+                text-align: center;
+            }
+            #story-part .text p{
+                width: auto;
+                font-size: 14px;
+                padding-bottom: 20px;
+            }
+            #story-part .text .button{
+                margin-bottom: 100px;
+            }
+            #story-part .img img{
+                padding-top: 90px;
+            }
+            #story-part .img .round{
+                top: 57%;
+                left: 38%;
+            }
+            #story-part .round{
+                width: 100px;
+                height: 100px;
+             
+            
+            }
+            #story-part .round .image .round{
+                width: 60px;
+                height: 60px;
+               
+               
+            }
+            #story-part .round .image .round i{
+                width: 35px;
+                height: 35px;
+                line-height: 35px;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+           
+            }
+            #story-part .main{
+                margin-bottom: 50px;
+    
+            }
+        
+            /* ===========happy hour part start====== */
+            #happy-hour-part{
+                margin-top: -100px;
+            }
+        
+            #happy-hour-part .title h2 {
+                padding-top: 50px;
+            }
+           
+            #happy-hour-part .text-part {
+               
+            
+                margin-top: 15px;
+       
+            }
+           
+          
+          
+           
+            /* ============happy hour-part end=== */
+        
+            /* =============team-part========== */
+        
+            #team-part  .title h2{
+            font-size: 32px;
+            }
+            #team-part .team .round{
+                margin: 0 auto;
+            }
+           
+       
+            /* =======team-part  end============ */
+        
+            
+            /* =======gallery-part  start============ */
+            .vbox-prev {
+                left: 41px;
+                top: 50%;
+            }
+            .vbox-next {
+                right: 41px;
+                top: 50%;
+            }
+            #gallery-img {
+                text-align: center;
+                padding: 40px 0px;
+            }
+            
+            /* =======gallery-part  end============ */
+        
+            /* ===========reservation-part start====== */
+           
+             #reservation-part .image img{
+                width: 100%;
+                margin-top: 40px;
+            }
+            #reservation-part .form h3 {
+                margin-bottom: 10px;
+            }
+            #reservation-part .form h3::after {
+                bottom: -10px;
+                width: 100px;
+            }
+            #reservation-part .form h3::before {
+                bottom: -10px;  
+                left: 108px;
+            }
+            #reservation-part .form .dropdown select {
+                padding: 8px;
+            }
+            #reservation-part .image .smoke-img{
+                top: -50%;
+                width: 500px;
+                left: -80%;
+            }
+            #reservation-part .form h3{
+                font-size: 25px;
+                padding-top: 30px;
+            }
+            
+        #reservation-part .form .main input::placeholder {
+            font-size: 12px;
+        }
+        #reservation-part .form .main input{
+            padding: 5px 8px;
+        }
+
+        #reservation-part .form textarea{
+            height: 80px;
+            padding: 10px;
+        }
+        #reservation-part .form button {
+            margin-top: 10px;
+            padding: 3px 0;
+            font-size: 20px;
+        }
+      /* ===========reservation-part end====== */
+        
+      /* ===========testimonial-part start====== */
+              #testimonial-part .title h2{
+                  font-size: 30px;
+              }
+              #testimonial-part{
+                margin-top: -100px;
+              }
+              #testimonial-part .item-part .item{
+               
+                background: #0a0b0c;
+            }
+            #testimonial-part .item-part .item .img {
+                width: 61%;
+            }
+            #testimonial-part .item-part .item .img img {
+                width:100%;
+            }
+            #testimonial-part .item-part .item .text{
+                width: 100%;
+                padding: 25px 0;
+            }
+            #testimonial-part .item-part{
+                width: 100%;
+                margin: 0 auto;    
+            }
+            #testimonial-part .item-part .item .text p{
+                font-size: 16px;
+               
+            }
+            #testimonial-part .item-part .item .text{
+                padding: 25px 13px;
+            }
+            #testimonial-part .item-part .prev{
+                top: 50%;
+                left: 0;
+            }
+            #testimonial-part .item-part .next{
+                top: 50%;
+                right: 0;
+            }
+        
+              /* ===========testimonial-part end====== */
+        
+               /* ===========counter-part end====== */
+               #contact-part{
+                   padding-top: 60px;
+               }
+               
+               #contact-part .item p {
+                font-size: 15px;
+                margin: 0 -5px;
+            }
+              #contact-part .icon-part::after{
+                  width: 190px;
+                  bottom: 20px;
+              }
+              
+            #contact-part .icon-part::before{
+                width: 190px;
+                bottom: 20px;
+            }
+            #contact-part .item .con span {
+                padding: 0 18px;
+                font-size: 15px;
+            }
+            #contact-part .item .con::after{
+                display: none;
+            }
+            #contact-part .item .con{
+                justify-content: center;
+            }
+             /* ===========counter-part end====== */
+             #banner-con-part .banner .banner-smoke .overlay h2{
+                font-size: 38px;
+             }
+             #banner-con-part .counter-down{
+                padding-bottom: 290px;
+            }
+ }
+ @media (min-width:992px) and (max-width:1199px){
+  
+
+            /* =========nav start========= */
+            .navbar .nav-item a{
+                font-size: 17px;
+            }
+                /* =======nav end========== */
+            
+                /* ========banner-start======= */
+                #banner_part .banner .overlay p::before {
+                 
+                    bottom: 175px;
+                    left: 32%;
+                    width: 100px;
+           
+                }
+                #banner_part .banner .overlay p::after {
+                
+                    bottom: 175px;
+                    right: 32%;
+                    width: 100px;       
+                   
+                }
+                #banner_part .next{
+                    bottom: 5%;
+                    right: 42%;
+                }
+                #banner_part .prev{
+                    bottom: 5%;
+                    left: 42%;
+                }
+                /* ======== banner end======= */
+            
+                /* =========story start========*/
+    
+                #story-part .text p{
+                    width: auto;
+                    font-size: 14px;
+                    padding-bottom: 20px;
+                }
+               
+                #story-part .img img{
+                    padding-top: 60px;
+                }
+              
+                #story-part .img .overlay {
+                    position: absolute;
+                    top: -51%;
+                    left: -45%;
+                }
+                
+            
+                /* ===========happy hour part start====== */
+                
+                /* ============happy hour-part end=== */
+            
+                /* =============team-part========== */
+            
+                #team-part  .title h2{
+                font-size: 32px;
+                }
+                #team-part .team .round{
+                    margin: 0 auto;
+                }
+               
+           
+                /* =======team-part  end============ */
+            
+                
+                /* =======gallery-part  start============ */
+                .vbox-prev {
+                    left: 100px;
+                    top: 50%;
+                }
+                .vbox-next {
+                    right: 100px;
+                    top: 50%;
+                }
+                /* =======gallery-part  end============ */
+            
+                /* ===========reservation-part start====== */
+            
+                #reservation-part .image img{
+                   width: 100%;
+                }
+
+                #reservation-part .image .smoke-img {
+                    width: 540px;
+                    position: absolute;
+                    top: -23%;
+                    left: -38%;
+                    z-index: -1;
+                }
+                #reservation-part .form h3 {
+                    font-size: 35px;
+                    margin-bottom: 10px;
+                }
+                #reservation-part .form .main input {
+                    padding: 10px;
+                }
+                #reservation-part .form .dropdown select {
+                    padding: 12px;
+                }
+            #reservation-part .form textarea{
+                height: 120px;
+            }
+    
+            
+          /* ===========reservation-part end====== */
+            
+          /* ===========testimonial-part start====== */
+          #testimonial-part {
+            padding-top: 50px;
+         }
+         #testimonial-part .item-part {
+            width: 69%;
+        }
+        #testimonial-part .item-part .item .img {
+            width: 36%;
+        }
+          #testimonial-part .item-part .item .text h4{
+            font-size: 17px;
+            
+        }
+        #testimonial-part .item-part .item .text p{
+            font-size: 15px;
+        }
+        #testimonial-part .item-part .item .text h3{
+            padding-top: 12px;
+        }
+               
+            
+                  /* ===========testimonial-part end====== */
+            
+                   /* ===========counter-part end====== */
+                   #contact-part{
+                       padding-top: 60px;
+                   }
+                   
+                  #contact-part .item p{
+                      font-size: 15px;
+                      margin: 0 5px;
+                  }
+                  #contact-part .icon-part::after{
+                      width: 190px;
+                      bottom: 20px;
+                      margin-left: 65px;
+                  }
+                  #contact-part .item .con p {
+                    padding: 0 5px;
+                }
+                #contact-part .icon-part::before{
+                    width: 190px;
+                    bottom: 20px;
+                    margin-right: 65px;
+                }
+                #contact-part .item .con span {
+                    padding-bottom: 10px;
+                    padding: 0 7px;
+                }
+                #contact-part .item .con::after {
+                    left: 47%;
+                }
+                #contact-part .item .con{
+                    justify-content: center;
+                    margin-bottom: 10px;
+                }
+                 /* ===========counter-part end====== */
+
+                 #banner-con-part .counter-down{
+                    padding-bottom: 290px;
+                }
+ }
+ @media(min-width:1200px) and (max-width:1399px){
+     /* ===========banner-part start========== */
+    #banner_part .banner .overlay p::before {
+   
+        left: 34%;
+    }
+    #banner_part .banner .overlay p::after {       
+        right: 34%;      
+    }
+    #banner_part .next{        
+        right: 43%;
+    }
+    #banner_part .prev{
+        left: 43%;
+    }
+    /* ==========banner -part end */
+    /* ==========story-part start========== */
+    #story-part .text {
+        padding-top: 118px;
+    }
+    #story-part .img .overlay {
+        position: absolute;
+        top: -38%;
+        left: -36%;
+    }
+
+
+    /* ==========story-part end========== */
+    #reservation-part .image {
+        margin-top: 10px;
+    }
+    /* ========== contart-part start========== */
+    #contact-part .item .con::after{
+        left: 47%;
+        
+    }
+    /* ========== contart-part end========== */
+    #banner-con-part .counter-down{
+        padding-bottom: 290px;
+    }
+    
+ }
+
+
